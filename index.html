@@ -93,7 +93,22 @@
         .formacion li:last-child:before {
             content: '→';
         }
+        .contacto-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
         
+        .contacto-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contacto-item i {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #ff8c42;
+        }
         /* Pie de página */
         footer {
             background-color: #333;
